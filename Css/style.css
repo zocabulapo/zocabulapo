@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(250, 252, 253);
+}
+.wrapper{
+    border: 1px solid #000;
+    height: auto ;
+    width: 100%;
+    margin: 0 auto;
+}
+.wrapper_chitiet{
+    height: auto ;
+    width: 90%;
+    margin: 0 auto;
+}
+.hinhanh_sanpham{
+
+    float: left;
+    width: 35%;
+}
+.chitiet_sanpham{
+    float: left;
+    width: 49%;
+    margin:0 10px;
+}
+input.themgiohang{
+    border: none;
+    background: brown;
+    color: #fff;
+    padding: 12px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.header{
+    background-color: lightblue;
+    text-align: center;
+    border: 1px solid #000;
+    height: 130px;
+    width: 100%; 
+    color: rgb(17, 0, 255);
+    font-size: 30px;
+}
+.menu{
+    border: 1px solid #000;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(173, 230, 225);
+}
+ul.listmenu{
+    padding: 0;
+    margin: 0;
+    width: 60%; 
+
+    list-style: none;
+    margin: 0 auto;
+    line-height: 27px;
+}
+ul.listmenu li :hover {
+    background: burlywood;
+}
+ul.listmenu li a {
+    text-decoration: none;
+    text-align: center;
+    color: #3333ff;
+}
+ul.listmenu li {
+    float: left;
+    margin: 7px;
+    padding: 5px;
+}
+.sidebar{
+    border: 1px solid #000;
+    height: 390px;
+    width: 10%; 
+    margin-top: 5px ;
+    margin-left: 5px;
+    float : left;
+    background-color: lightblue;
+    
+
+}
+.maincontent{
+   
+    height: auto;
+    width: 89%; 
+    margin-top: 5px ;
+    margin-left: 5px;
+    float: right;
+}
+ul.productlist li img{
+    height: 360px;
+
+    image-rendering: pixelated;
+}
+ul.productlist {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    text-decoration: none;
+
+}
+ul.productlist li {
+    width: 18.5%;
+    border: 1px dashed #000;
+    margin: 5px ;   
+    float: left;
+    text-decoration: none;
+
+}
+ul.productlist img {
+    width: 100%;
+    
+}
+.footer{
+    border: 2px solid #000;
+    height: 150px;
+    width: 100%;  
+    font-size: 15px;  
+    text-align: center;
+    background-color: lightblue;
+
+}
+.clear{
+    clear: both;
+} 
+
+ul.listsidebar li :hover {
+    background: cadetblue;
+}
+ul.listsidebar li a {
+    text-decoration: none;
+    text-align: left;
+    color: #3333ff;
+    display: block;
+    
+}
+ul.listsidebar li {
+    margin: 7px;
+    padding: 5px;
+    list-style: none;
+}
+p.title_product{
+    text-align: center;
+    color:#000;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Calibri;
+}
+p.price_product{
+    text-align: center;
+    color:#000;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Calibri;
+}
+
+ul.productlist li a{
+    text-decoration: none;
+    
+
+}
+ul.productlist :hover {
+    background: rgb(182, 65, 44);
+}
+p.title_danhmuc{
+    text-align: center;
+    color:#000;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Calibri;
+}
