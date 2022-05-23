@@ -14,7 +14,7 @@ if($cart_query){
         mysqli_query($mysqli,$insert_order_detail);
     }
     $tieude="Orders game succesfull!";
-
+    $noidung="<p>Thank you for trust with order code :".$code_order."</p>";
     $noidung="<h4>Your order include :<h4>";
     foreach($_SESSION['cart'] as $key => $val){
         $noidung.="<ul style='border:1px solid blue;margin:10px;'>
